@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=header, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="calculos.css">
+    <title>TRADUCTOR</title>
+</head>
+<body>
+    <header>
+        <h1>
+            SUMATORIA
+        </h1>
+    </header>
+    <section>
+        <div class="calculos" id='salida'></div>
+    </section>
+    <script>
+        function sumat(m){
+            var suma=0;
+            for (i=0;i<=m;i++){
+                suma1=((-1/3)**i)/(2*i+1)
+                suma=suma+suma1
+            var s=suma*Math.sqrt(12);
+            }    
+        return s;  
+        }
+           
+        m=parseInt(prompt("Numero"))
+        document.getElementById('salida').innerHTML='La sumatoria es '+sumat(m);
+    </script>
+</body>
+</html>

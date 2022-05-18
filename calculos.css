@@ -1,0 +1,22 @@
+.calculos {
+    background-color: rgb(255, 127, 161);
+    color: black;
+    font-size: 30px;
+    margin: 5px;
+    border: 2px outset rgb(178, 93, 93);
+    padding: 15px 40px;
+    text-align: center;
+    font-weight: 700;
+  }
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family:'Boogaloo', cursive;
+    color: rgb(190, 48, 48);
+  }
+  /*.centrar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
